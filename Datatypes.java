@@ -1,8 +1,8 @@
-public main Datatypes{
+public class Datatypes{
   public static void main(String[] args){
     int n1=849734674;
     byte n2=126;
-    short n3=7474977;
+    short n3=7977;
     long n4=764796796967l;
 
     double n5=98.89658584949;
