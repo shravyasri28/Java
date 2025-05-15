@@ -13,6 +13,6 @@ class Relational{
     int n8=4;
     int n9=4;
     boolean n10=n8==n9;
-    System.out.println(n10);
+    System.out.println(!n10);
   }
 }
