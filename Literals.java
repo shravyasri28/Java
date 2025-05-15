@@ -1,5 +1,5 @@
 public class Literals{
-  public static void main(){
+  public static void main(String[] args){
     int n1=0b1011;
     int n2=0x7E;
     double n3=70;
