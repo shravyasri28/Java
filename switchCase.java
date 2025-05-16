@@ -1,7 +1,7 @@
 class switchCase{
   public static void main(String[] args){
     int n=5;
-    switch (n)
+    switch (n){
       case 1:
           {
             System.out.println("Monday");
@@ -41,4 +41,4 @@ class switchCase{
           System.out.println("Enter valid number");
       }
   }
-          
+}
