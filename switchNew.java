@@ -8,4 +8,12 @@ class switchNew{
       default -> res="10am";  
     };
     System.out.println(res);
+    String day="Friday";
+    String res="";
+    res=switch(day){
+        case "Monday","Tuesday" :yield "6am";
+      case "Wednesday","Thursday","Friday" :yield "7am";
+      default :yield "10am";  
+    };
+    System.out.println(res);
   }
