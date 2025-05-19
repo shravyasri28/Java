@@ -1,4 +1,4 @@
-class Applications{
+class Application{
   public void playMusic(){
     System.out.println("Music is Playing...");
   }
@@ -9,7 +9,7 @@ class Applications{
       return "Not Delivered";
   }
 }
-class Methods{
+class methods{
   public static void main(String[] args){
     Application obj=new Application();
     obj.playMusic();
