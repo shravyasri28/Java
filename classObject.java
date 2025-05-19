@@ -4,7 +4,7 @@ class Calculator{
     return r;
   }
 }
-class Demo{
+class classObject{
   public static void main(String[] args){
     int num1=2;
     int num2=8;
