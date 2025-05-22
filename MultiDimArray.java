@@ -15,25 +15,25 @@ class MultiDimArray{
     arr[2][3]=32;
     for(int i=0;i<=2;i++){
       for(int j=0;j<=3;j++){
-        System.out.print(arr[i][j]);
+        System.out.print(arr[i][j]+" ");
       }
       System.out.println();
     }
     int arr1[][]=new int[3][4];
     for(int i=0;i<=2;i++){
       for(int j=0;j<=3;j++){
-        arr1[i][j]=(int)((Math.random()*10);
+        arr1[i][j]=(int)(Math.random()*10);
       }
     }
     for(int i=0;i<=2;i++){
       for(int j=0;j<=3;j++){
-        System.out.print(arr1[i][j]);
+        System.out.print(arr1[i][j]+" ");
       }
       System.out.println();
     }
     for(int n[]:arr){
       for(int m:n){
-        System.out.println(m+" ");}
+        System.out.print(m+" ");}
       System.out.println();
     }
   }
