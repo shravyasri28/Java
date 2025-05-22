@@ -5,7 +5,7 @@ class MultiDimArray{
     arr[0][1]=87;
     arr[0][2]=92;
     arr[0][3]=24;
-    arr[1][0]=09;
+    arr[1][0]=78;
     arr[1][1]=29;
     arr[1][2]=93;
     arr[1][3]=18;
